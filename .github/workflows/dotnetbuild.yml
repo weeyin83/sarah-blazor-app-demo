@@ -29,4 +29,3 @@ jobs:
  # We now pack the files created into zip files
     - name: Package sarah-blazor-app-demo
       run: octo pack --id=sarah-blazor-app-demo --format=Zip --version=${{ github.run_number }} --basePath=${{ github.workspace }}\output\sarah-blazor-app-demo\ --outFolder=${{ github.workspace }}\output
-    - name: Package sarah-blazor-app-demo
